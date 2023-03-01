@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color: palevioletred;
+}
+.caja1{
+    width: 50rem;
+    height: 50rem;
+    position: relative;
+    animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+    0% {top: 0px}
+    30% {top: 200px}
+    62%, 75%{top: 50px; right:50px}
+    100% {left:50%}
+}
